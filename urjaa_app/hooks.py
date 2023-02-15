@@ -95,7 +95,8 @@ app_license = "MIT"
 # Override standard doctype classes
 
 override_doctype_class = {
-	"Purchase Order": "urjaa_app.purchase_order.PurchaseOrder"
+	"Purchase Order": "urjaa_app.purchase_order.PurchaseOrder",
+    "Sales Order": "urjaa_app.sales_order.SalesOrder"
 }
 
 # Document Events
