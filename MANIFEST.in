@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include urjaa_app *.css
+recursive-include urjaa_app *.csv
+recursive-include urjaa_app *.html
+recursive-include urjaa_app *.ico
+recursive-include urjaa_app *.js
+recursive-include urjaa_app *.json
+recursive-include urjaa_app *.md
+recursive-include urjaa_app *.png
+recursive-include urjaa_app *.py
+recursive-include urjaa_app *.svg
+recursive-include urjaa_app *.txt
+recursive-exclude urjaa_app *.pyc
