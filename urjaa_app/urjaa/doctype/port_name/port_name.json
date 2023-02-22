@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:port_name",
+ "creation": "2023-02-22 18:08:19.681098",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "port_name",
+  "section_break_enazj",
+  "s_line",
+  "cha",
+  "column_break_c9shc",
+  "cfs",
+  "tpt",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "port_name",
+   "fieldtype": "Data",
+   "label": "Port Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_enazj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "s_line",
+   "fieldtype": "Float",
+   "label": "S/line"
+  },
+  {
+   "fieldname": "cha",
+   "fieldtype": "Float",
+   "label": "CHA"
+  },
+  {
+   "fieldname": "column_break_c9shc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cfs",
+   "fieldtype": "Float",
+   "label": "CFS"
+  },
+  {
+   "fieldname": "tpt",
+   "fieldtype": "Float",
+   "label": "TPT"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Port Name",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-02-22 18:09:03.840434",
+ "modified_by": "Administrator",
+ "module": "Urjaa",
+ "name": "Port Name",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

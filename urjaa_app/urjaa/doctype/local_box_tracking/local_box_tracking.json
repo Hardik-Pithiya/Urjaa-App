@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-22 17:37:13.337446",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "purchase_invoice_no",
+  "column_break_mjdge",
+  "suppler",
+  "section_break_zxggu",
+  "items",
+  "total_qty",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_invoice_no",
+   "fieldtype": "Data",
+   "label": "Purchase Invoice No"
+  },
+  {
+   "fieldname": "column_break_mjdge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "suppler",
+   "fieldtype": "Data",
+   "label": "Suppler"
+  },
+  {
+   "fieldname": "section_break_zxggu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Local Box Tracking Item"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Data",
+   "label": "Total Qty"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Local Box Tracking",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-02-22 17:37:20.727531",
+ "modified_by": "Administrator",
+ "module": "Urjaa",
+ "name": "Local Box Tracking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

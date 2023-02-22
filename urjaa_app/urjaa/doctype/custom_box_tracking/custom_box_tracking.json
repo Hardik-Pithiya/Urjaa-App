@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:purchase_invoice_no",
+ "creation": "2023-02-22 17:41:52.415685",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "purchase_invoice_no",
+  "purchase_receipt_no",
+  "column_break_npklp",
+  "suppler",
+  "section_break_4odiz",
+  "item"
+ ],
+ "fields": [
+  {
+   "fieldname": "purchase_receipt_no",
+   "fieldtype": "Data",
+   "label": "Purchase Receipt No"
+  },
+  {
+   "fieldname": "column_break_npklp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "suppler",
+   "fieldtype": "Data",
+   "label": "Suppler"
+  },
+  {
+   "fieldname": "section_break_4odiz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Table",
+   "label": "Item",
+   "options": "Custom Box Item"
+  },
+  {
+   "fieldname": "purchase_invoice_no",
+   "fieldtype": "Data",
+   "label": "Purchase Invoice",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-22 17:42:28.498369",
+ "modified_by": "Administrator",
+ "module": "Urjaa",
+ "name": "Custom Box Tracking",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

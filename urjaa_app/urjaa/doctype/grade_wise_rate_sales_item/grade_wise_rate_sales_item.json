@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-22 17:22:38.492201",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_template",
+  "item_grade",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_template",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Template",
+   "options": "Item"
+  },
+  {
+   "fieldname": "item_grade",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Grade",
+   "options": "Item"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-22 17:28:47.192864",
+ "modified_by": "Administrator",
+ "module": "Urjaa",
+ "name": "Grade Wise Rate Sales Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

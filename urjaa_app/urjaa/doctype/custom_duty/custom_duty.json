@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-02-22 18:09:07.668307",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "purchase_order_no",
+  "column_break_jbles",
+  "currency",
+  "supplier",
+  "column_break_v5mhx",
+  "conversion_rate",
+  "port_name",
+  "section_break_8vmug",
+  "sline",
+  "column_break_y6fxt",
+  "cha",
+  "column_break_m0xwf",
+  "cfs",
+  "column_break_kbfqv",
+  "tpt",
+  "section_break_oclbw",
+  "etd",
+  "column_break_n1j2l",
+  "nsa_etd",
+  "column_break_yckmb",
+  "day",
+  "column_break_rrmvk",
+  "surat_delivery_date",
+  "section_break_41c2s",
+  "items",
+  "section_break_gsu8o",
+  "total_qty",
+  "avg_cost_total",
+  "column_break_d5ym4",
+  "base_total",
+  "avg_cost",
+  "column_break_drvwb",
+  "total",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "CUS-DUTY-.YYYY.-"
+  },
+  {
+   "fieldname": "purchase_order_no",
+   "fieldtype": "Link",
+   "label": "Ref Order No",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "column_break_jbles",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "column_break_v5mhx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "conversion_rate",
+   "fieldtype": "Currency",
+   "label": "Exchange Rate",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "port_name",
+   "fieldtype": "Link",
+   "label": "Port Name",
+   "options": "Port Name"
+  },
+  {
+   "fieldname": "section_break_8vmug",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sline",
+   "fieldtype": "Float",
+   "label": "S/Line"
+  },
+  {
+   "fieldname": "column_break_y6fxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cha",
+   "fieldtype": "Float",
+   "label": "CHA"
+  },
+  {
+   "fieldname": "column_break_m0xwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cfs",
+   "fieldtype": "Data",
+   "label": "CFS"
+  },
+  {
+   "fieldname": "column_break_kbfqv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tpt",
+   "fieldtype": "Data",
+   "label": "TPT"
+  },
+  {
+   "fieldname": "section_break_oclbw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "etd",
+   "fieldtype": "Date",
+   "label": "ETD"
+  },
+  {
+   "fieldname": "column_break_n1j2l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nsa_etd",
+   "fieldtype": "Date",
+   "label": "NSA ETD"
+  },
+  {
+   "fieldname": "column_break_yckmb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Data",
+   "label": "Day"
+  },
+  {
+   "fieldname": "column_break_rrmvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surat_delivery_date",
+   "fieldtype": "Data",
+   "label": "SURAT DELIVERY DATE"
+  },
+  {
+   "fieldname": "section_break_41c2s",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Item",
+   "options": "Custom Duty Child"
+  },
+  {
+   "fieldname": "section_break_gsu8o",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "label": "Total Quantity"
+  },
+  {
+   "fieldname": "avg_cost_total",
+   "fieldtype": "Float",
+   "label": "Avg Cost Total"
+  },
+  {
+   "fieldname": "column_break_d5ym4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_total",
+   "fieldtype": "Currency",
+   "label": "Total (INR)",
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "avg_cost",
+   "fieldtype": "Float",
+   "label": "Avg Cost"
+  },
+  {
+   "fieldname": "column_break_drvwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total",
+   "options": "currency"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Custom Duty",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-02-22 18:11:13.741123",
+ "modified_by": "Administrator",
+ "module": "Urjaa",
+ "name": "Custom Duty",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
