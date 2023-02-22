@@ -191,3 +191,19 @@ override_whitelisted_methods = {
 # auth_hooks = [
 #	"urjaa_app.auth.validate"
 # ]
+
+
+fixtures = [
+    # {"dt": "Report", "filters": [
+    #     [
+    #         "module", "in", [
+    #             "Migoo CRM"
+    #         ]
+    #     ]
+    # ]},
+	{"dt": "Custom Field", },
+
+    {"dt": "Client Script", },
+
+    {"dt": "Server Script", },
+]
